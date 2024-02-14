@@ -31,6 +31,8 @@ function NavCom() {
        
           <Nav className=' mx-auto '>
             <Nav.Link className='fw-bold fs-5' href="#deets"><Link style={{color:location.pathname === '/'&&navbarStyle,textDecoration:"none"}} to={"/"}>Image Classification</Link></Nav.Link>
+            <Nav.Link className='fw-bold fs-5' href="https://imageanalyzer.streamlit.app/">Mult Image Classification</Nav.Link>
+
         
 
 
