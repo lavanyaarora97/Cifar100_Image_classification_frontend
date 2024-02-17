@@ -36,7 +36,7 @@ function FileUploader() {
         const formData = new FormData();
         formData.append('file', selectedFile);
 
-        const baseUrl = 'https://cifar-100.onrender.com/upload'
+        const baseUrl = 'https://cifar-100-api.onrender.com'
 
         const apiEndpoint = baseUrl;
 
